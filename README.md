@@ -60,3 +60,11 @@ terraform apply # e ben vertet
 Docker container u krijua automatikisht me kod!
 URL: http://localhost:8090
 
+## Dita 7 - Prometheus & Grafana
+- Prometheus mbledh te dhena nga serveret
+- Grafana shfaq grafike ne kohe reale
+- Dashboard "DevOps Monitoring" me CPU metrics
+
+### Rezultati:
+Grafik live i CPU ne http://localhost:3000
+
