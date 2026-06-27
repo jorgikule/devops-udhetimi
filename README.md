@@ -46,3 +46,17 @@ Aplikacioni nginx po punon ne Kubernetes!
 Pipeline me 3 stage ekzekutoi me sukses!
 Finished: SUCCESS
 
+## Dita 6 - Terraform
+- Terraform krijon infrastrukture me kod
+- main.tf - skedari kryesor i konfigurimit
+- HCL - gjuha e Terraform
+
+### Komandat kryesore
+terraform init  # pergatit mjedisin
+terraform plan  # tregon cfare do te beje
+terraform apply # e ben vertet
+
+### Rezultati:
+Docker container u krijua automatikisht me kod!
+URL: http://localhost:8090
+
