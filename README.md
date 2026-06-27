@@ -35,3 +35,14 @@ minikube service hello-k8s --url
 
 ### Rezultati:
 Aplikacioni nginx po punon ne Kubernetes!
+
+## Dita 5 - Jenkins CI/CD
+- Jenkins automatizon rrugetimin e kodit
+- Pipeline - zinxhiri i hapave automatike
+- Stage - cdo hap i pipeline-it
+- Grovvy - gjuha e Jenkins
+
+### Rezultati:
+Pipeline me 3 stage ekzekutoi me sukses!
+Finished: SUCCESS
+
