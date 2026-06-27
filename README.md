@@ -18,3 +18,20 @@
 - Dockerfile - image i personalizuar
 - Web server me nginx
 
+## Dita 4 - Kubernetes
+- Kubernetes menaxhon containers ne shkalle te madhe
+- Minikube - cluster lokal per te mesuar
+- Pod - njesia me e vogel ne Kubernetes
+- Deployment - menaxhon Pod-et
+- Service - ekspozon aplikacionin jashte
+
+### Komandat kryesore:
+kubectl get nodes
+kubectl get pods
+kubectl create deployment hello-k8s --image=nginx
+kubectl expose deployment hello-k8s --type=NodePort --
+port=80
+minikube service hello-k8s --url
+
+### Rezultati:
+Aplikacioni nginx po punon ne Kubernetes!
